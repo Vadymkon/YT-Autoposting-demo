@@ -76,9 +76,32 @@ namespace YLoader
             /*yt.getListOfMyVideos();
             yt.UpdateVideo(new VideoFile("2",@"C:\Users\vadymkon\Desktop"));*/
             // yt.ThumbnailSetResponse(new VideoFile("2", @"C:\Users\vadymkon\Desktop"));
-            yt.UpdateVideo(new VideoFile("obijmy", @"D:\vadymkon\youtube\НЕКАНОН\Готовый материал\CEO"));
+            //yt.UpdateVideo(new VideoFile("obijmy", @"D:\vadymkon\youtube\НЕКАНОН\Готовый материал\CEO"));
+            string message = "1) Click on 'G'-button on top-right corner" + "\r\n" +
+                             "\tfor login in your account with channel." + "\r\n" +
+                             "\t(if you have some problems contact with me: " + "\r\n" +
+                             "\tvadymkonbusiness@gmail.com)" + "\r\n" + 
+                             "\r\n" +
 
-            MessageBox.Show("done");
+                            "2) Upload all videos you need to your " + "\r\n" +
+                            "\tYT-channel by yourself without any SEO or dates." + "\r\n" + 
+                            "\tJust send it on YT as they are (draft)." + "\r\n" +
+                            "\tOther made this program." + "\r\n" + 
+                            "\r\n" +
+                            
+                            "3) Press 'Generate schedule' for new schedule." + "\r\n" +
+                            "Then press BIG GREEN BUTTON in center" + "\r\n" + 
+                            "\r\n" +
+
+                            "Then just: write SEO for each file in right side." + "\r\n" +
+                            "And press 'Realize this schedule on 2d screen. " + "\r\n" +
+                            "Your videos will be on YouTube with their SEO." + "\r\n" +
+                            "\r\n" +
+                            "Next, you can change dates of publishing as you like on 2d screen. " + "\r\n" + 
+                            "Or re'Generate schedule' and change all video dates by 1 click." + "\r\n" 
+                            ;
+
+            MessageBox.Show(message, "How to use:", MessageBoxButtons.OK ,MessageBoxIcon.Information);
         }
         
         void button2_Click(object sender, EventArgs e) //save template of mails-sending

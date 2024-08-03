@@ -48,6 +48,7 @@ namespace YLoader
             this.yt_Button11 = new yt_DesignUI.yt_Button();
             this.label1 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.objectListView1)).BeginInit();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -62,7 +63,7 @@ namespace YLoader
             this.olvColumn2});
             this.objectListView1.Cursor = System.Windows.Forms.Cursors.Default;
             this.objectListView1.HideSelection = false;
-            this.objectListView1.Location = new System.Drawing.Point(12, 12);
+            this.objectListView1.Location = new System.Drawing.Point(12, 37);
             this.objectListView1.Name = "objectListView1";
             this.objectListView1.ShowGroups = false;
             this.objectListView1.Size = new System.Drawing.Size(500, 479);
@@ -99,7 +100,7 @@ namespace YLoader
             this.yt_Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.yt_Button3.Font = new System.Drawing.Font("Verdana", 12.25F, System.Drawing.FontStyle.Bold);
             this.yt_Button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.yt_Button3.Location = new System.Drawing.Point(12, 497);
+            this.yt_Button3.Location = new System.Drawing.Point(12, 522);
             this.yt_Button3.Name = "yt_Button3";
             this.yt_Button3.RippleColor = System.Drawing.Color.Black;
             this.yt_Button3.Rounding = 80;
@@ -128,7 +129,7 @@ namespace YLoader
             this.panel2.Controls.Add(this.yt_Button8);
             this.panel2.Controls.Add(this.yt_Button7);
             this.panel2.Controls.Add(this.yt_Button11);
-            this.panel2.Location = new System.Drawing.Point(528, 12);
+            this.panel2.Location = new System.Drawing.Point(528, 37);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(270, 479);
             this.panel2.TabIndex = 32;
@@ -192,7 +193,7 @@ namespace YLoader
             this.comboBox1.Items.AddRange(new object[] {
             "a_3d",
             "a_sh"});
-            this.comboBox1.Location = new System.Drawing.Point(46, 0);
+            this.comboBox1.Location = new System.Drawing.Point(36, 0);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(224, 28);
             this.comboBox1.TabIndex = 30;
@@ -395,7 +396,7 @@ namespace YLoader
             this.label1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.label1.Location = new System.Drawing.Point(454, 432);
+            this.label1.Location = new System.Drawing.Point(454, 457);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(20, 22);
             this.label1.TabIndex = 34;
@@ -404,16 +405,30 @@ namespace YLoader
         "here you gonna put it.\r\n\r\nClick on \"Move Graffik\" to HIDE checkboxes.");
             this.label1.Visible = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.Location = new System.Drawing.Point(57, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(705, 24);
+            this.label2.TabIndex = 35;
+            this.label2.Text = "DEMO maximum is 50 videos. Need more: vadymkonbusiness@gmail.com";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(798, 538);
+            this.ClientSize = new System.Drawing.Size(804, 569);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.yt_Button3);
             this.Controls.Add(this.objectListView1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
             this.Name = "Form2";
             this.Opacity = 0.98D;
             this.Text = "Проверить график выхода";
@@ -444,5 +459,6 @@ namespace YLoader
         private System.Windows.Forms.ToolTip toolTip1;
         private yt_DesignUI.EgoldsToggleSwitch egoldsToggleSwitch1;
         private yt_DesignUI.EgoldsToggleSwitch egoldsToggleSwitch2;
+        private System.Windows.Forms.Label label2;
     }
 }

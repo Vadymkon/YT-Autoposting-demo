@@ -109,5 +109,11 @@ namespace YLoader
             Close();
         }
 
+        private void label2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Email was saved to your clipboard");
+            Clipboard.Clear();
+            Clipboard.SetText("vadymkonbusiness@gmail.com");
+        }
     }
 }
