@@ -631,7 +631,7 @@ namespace YLoader
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Opacity = 0.98D;
-            this.Text = "YT Uploader";
+            this.Text = "YT Autoposting";
             this.Shown += new System.EventHandler(this.Form1_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.objectListView1)).EndInit();
             this.ResumeLayout(false);
