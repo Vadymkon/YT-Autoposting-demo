@@ -8,8 +8,7 @@ Download: [yt-autoposting-demo.zip](https://github.com/user-attachments/files/16
 Tired of YouTube-uploading interface? How about upload 100+ videos by one click? This program can do this. 
 
 Also you might be interested in those features:
-
-**- Shorts/TikTok/Reels autoposting**
+- **Shorts/TikTok/Reels autoposting**
 - Generating content shedule (original algorithm to make content-plan using only YOUR FILENAMES)
 - Email spammer (send 100+ emails by one click)
 - Shifting schedule of videos (**shift upload-dates schedule of ALL your videos by 1 CLICK**)
